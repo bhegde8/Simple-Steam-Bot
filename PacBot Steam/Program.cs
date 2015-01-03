@@ -202,17 +202,17 @@ namespace PacBot_Steam
 
         static void onFriendsList(SteamFriends.FriendsListCallback callback)
         {
-
+            //code for when you receive your Steam friends list
         }
 
         static void onChatInvite(SteamFriends.ChatInviteCallback callback)
         {
-
+            //code for when you're invited to a group chat
         }
 
         static void onGroupMessage(SteamFriends.ChatMsgCallback callback)
         {
-
+            //code for when you receive a message in a group chat
         }
 
         static void OnMachineAuth(SteamUser.UpdateMachineAuthCallback callback)
