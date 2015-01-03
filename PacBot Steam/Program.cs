@@ -42,6 +42,11 @@ namespace PacBot_Steam
         static void Main(string[] args)
         {
              isRunning = true;
+             
+             log("#PLEASE ENTER YOUR USERNAME#:");
+             steamUsername = Console.ReadLine();
+             log("#PLEASE ENTER YOUR PASSWORD: (THIS IS NOT LOGGED IN ANY WAY)");
+             steamPassword = Console.ReadLine();
 
              steamClient.Connect(); //attempts to create the connection to steam
 
